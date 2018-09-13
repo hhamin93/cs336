@@ -41,7 +41,7 @@ console.log( "user1 is an instanceof person?",user1 instanceof person);
 birthday.prototype = Object.create(person.prototype);
 birthday.prototype.ages = function() {
 
-	var today = new Date();
+    var today = new Date();
     var birthyear = new Date(this.year);
     var birthmonth = new Date(this.month);
     var birthdate = new Date(this.date);
