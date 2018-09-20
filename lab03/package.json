@@ -1,0 +1,14 @@
+{
+  "name": "unit03-node",
+  "version": "1.0.0",
+  "description": "unit 3",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Hamin Hong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
