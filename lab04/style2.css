@@ -1,0 +1,24 @@
+/* numbered paragraphs */
+h3.numbered {counter-reset: mynum;}
+ 
+p.numbered:before {
+  content: "(" counter(mynum, upper-latin) ") ";
+  counter-increment: mynum;
+  font-weight: bold;
+}
+
+li {
+  list-style: lower-roman;
+  margin-bottom: 8px;
+}
+h3 {border-top: 1px solid gray;}
+
+ul {
+  border: 10px solid lightblue;
+}
+
+#fixed-pin  {
+  position:fixed;
+  top: 3px;
+  right: 3px;
+}

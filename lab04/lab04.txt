@@ -1,0 +1,7 @@
+
+4.1
+/*Q7, I do not like comic serif*/
+
+4.2
+/* I think that to have a certain validation step is required for 
+any good website. There was no error reported

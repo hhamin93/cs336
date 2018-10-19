@@ -1,0 +1,47 @@
+/*p {color: violet; }
+strong {color: red;}
+strong {color: yellow;}
+strong {color: blue;}
+strong {color: black;}
+strong {color: white;}
+strong {color: skyblue;text-decoration: underline;}*/
+
+/*this was done for action*/
+/*Q7, I do not like comic serif*/
+/**/
+
+body {
+  font: 16px "Comic Sans MS", cursive;
+  background: url("Blue-rule.png");
+}
+
+
+#first {
+  font-style: italic;
+}
+
+p:before{
+  content: url("yellow-pin.png");
+}
+
+/* initial letters */
+strong {
+  color: #f00; /* red */
+  background-color: #ddf; /* pale blue */
+  font: 200% serif;
+}
+
+.carrot {
+  color: #fa0; /* orange */
+}
+
+.spinach {
+  color: #080; /* dark green */
+}
+
+p {
+  color: #00f; /* blue */
+}
+
+/* I think that to have a certain validation step is required for 
+any good website. There was no error reported
